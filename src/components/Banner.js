@@ -5,13 +5,6 @@ import HeaderImg from "../assets/img/header-img.svg";
 
 
 export const Banner = () => {
-    const [loopNum, setLoopNum] = useState(0);
-    const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Front-End Developer", "Full-Stack Developer", "Web Developer"];
-    const [text, setText] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const period = 2000;
-
     return (
         <section className="banner" id="home">
             <Container>
@@ -22,7 +15,6 @@ export const Banner = () => {
                         </span>
                         <h1>
                             {`Hi I'm Krina `}
-                        <span className="wrap">Software Developer</span>
                         </h1>
                         <p>
                         I completed my masters in Computer Science from California State University - East Bay in December 2022 with 3.9 GPA. I am actively looking for a Software Engineer Position. 
